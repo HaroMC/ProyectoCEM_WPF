@@ -1,9 +1,9 @@
-﻿<Window x:Name="MainFrame" x:Class="AplicacionEscritorio.MainWindow"
+﻿<Window x:Class="AplicacionWPF.Ingreso"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AplicacionEscritorio"
+        xmlns:local="clr-namespace:AplicacionWPF"
         mc:Ignorable="d"
         Title="Sistema de intercambios CEM" Height="500" Width="400">
     <Grid>
@@ -14,6 +14,5 @@
         <Button x:Name="button1" Content="Salir" HorizontalAlignment="Left" Margin="215,346,0,0" VerticalAlignment="Top" Width="75"/>
         <Label x:Name="label1" Content="Contraseña" HorizontalAlignment="Left" Margin="90,229,0,0" VerticalAlignment="Top" Height="30"/>
         <Label x:Name="label2" Content="Ingreso al sistema" HorizontalAlignment="Left" Margin="90,80,0,0" VerticalAlignment="Top" FontSize="20" Width="200"/>
-
     </Grid>
 </Window>
